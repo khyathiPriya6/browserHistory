@@ -1,0 +1,56 @@
+.history-iem-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 10px;
+  list-style: none;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.time-style {
+  font-family: roboto;
+  color: #475569;
+  margin: 5px;
+  margin-right: 50px;
+}
+
+.logo-style {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+
+.title-style {
+  font-family: roboto;
+  color: #000000;
+  margin: 5px;
+}
+
+.url-style {
+  font-family: roboto;
+  color: #64748b;
+  margin: 5px;
+}
+
+.delete-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.delete-style {
+  align-self: flex-end;
+  width: 20px;
+  margin: 5px;
+  margin-right: 60px;
+}
+
+.delete-btn {
+  border-width: 0px;
+  background-color: transparent;
+  text-align: center;
+}
